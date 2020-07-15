@@ -16,7 +16,7 @@ function parseQueryString(find, from) {
   return parts ? parts[2] : '';
 }
 
-// location is provided by react-router-dom
+// location prop is provided by react-router-dom
 function NearbyPage({ location: { search: query } }) {
   const coordinates = parseQueryString('coordinates', query);
 
@@ -27,7 +27,7 @@ function NearbyPage({ location: { search: query } }) {
         <meta name="description" content="Description of Nearby" />
       </Helmet>
       <FormattedMessage {...messages.header} />
-      {coordinates}
+      Hello {coordinates}
     </article>
   );
 }
