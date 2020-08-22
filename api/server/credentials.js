@@ -1,6 +1,6 @@
 const credentials = {
   flickr: {
-    api_key: '671aab1520e2cb69e08dd36a5f40213b',
+    api_key: '80e270fc9e115722bea6252237ab5279',
   },
 };
 

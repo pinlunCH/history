@@ -74,7 +74,7 @@ function AlbumViewPage({
         <title>{`${albumName}  Album`}</title>
       </Helmet>
       <SplitScreen currentMemory={currentMemory} memories={memories} />
-      <PhotoHeader currentMemory={currentMemory} />
+      <PhotoHeader currentMemory={currentMemory}/>
       <InfiniteThumbs
         error={albumErrorMsg || albumError}
         items={memories}

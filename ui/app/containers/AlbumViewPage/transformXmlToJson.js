@@ -23,6 +23,7 @@ export function parseItemNode(item) {
     description: parseNode('photo_desc'),
     coordinates: [parseFloat(parseNode('lon')), parseFloat(parseNode('lat'))],
     caption: parseNode('thumb_caption'),
+    nearby: parseNode('nearby'),
     photoLink: null, // Dropbox hosted url,
     thumbLink: null, // Dropbox hosted url
     videoLink: null, // Dropbox hosted url

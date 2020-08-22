@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import A from '../A';
 
 function titleCase(str) {
@@ -49,12 +48,12 @@ const P = styled.p`
 
 function PhotoHeader({ currentMemory }) {
   if (!currentMemory || currentMemory === null) return null;
-
   const {
     city,
     location,
     reference,
     coordinates: [long, lat] = ['', ''],
+    nearby,
   } = currentMemory;
 
   return [
@@ -64,6 +63,7 @@ function PhotoHeader({ currentMemory }) {
     <P key="headerLocation">
       {location} <LinkToReference reference={reference} />
     </P>,
+    <A href={`http://localhost:3000/nearby?coordinates=${long},${lat}`}>{nearby}</A>
   ];
 }
 

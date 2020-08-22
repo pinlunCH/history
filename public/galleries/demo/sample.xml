@@ -18,6 +18,7 @@
 		<photo_city>Vancouver, BC</photo_city>
 		<photo_loc>Granville Island</photo_loc>
 		<thumb_caption>Lunch</thumb_caption>
+		<nearby>See nearby</nearby>
 	</item>
 	<item id="30">
 		<filename>2004-01-04-01.jpg</filename>
@@ -29,6 +30,7 @@
 		<photo_loc>Dining Room</photo_loc>
 		<thumb_caption>Gingerbread</thumb_caption>
 		<photo_desc>Gingerbread persons</photo_desc>
+		<nearby>See nearby</nearby>
 	</item>
 	<item id="2">
 		<filename>2005-07-30-01.jpg</filename>
@@ -40,6 +42,7 @@
 		<photo_loc>Camping</photo_loc>
 		<thumb_caption>Starfish</thumb_caption>
 		<photo_desc>Starfish</photo_desc>
+		<nearby>See nearby</nearby>
 	</item>
 	<item id="4">
 		<type>video</type>
@@ -49,6 +52,7 @@
 		<photo_loc>Friend</photo_loc>
 		<thumb_caption>Fireplace</thumb_caption>
 		<photo_desc>A sample HTML5 video in both MP4 and WebM formats</photo_desc>
+		<nearby>See nearby</nearby>
 		<size>
 			<w>1280</w>
 			<h>720</h>
@@ -68,6 +72,7 @@
 		<photo_loc>YVR</photo_loc>
 		<thumb_caption>Airport</thumb_caption>
 		<photo_desc/>
+		<nearby>See nearby</nearby>
 		<ref>
 			<name>Vancouver_International_Airport</name>
 			<source>wikipedia</source>
@@ -87,5 +92,6 @@
 			<name>Marine_Building</name>
 			<source>wikipedia</source>
 		</ref>
+		<nearby>See nearby</nearby>
 	</item>
 </album>
